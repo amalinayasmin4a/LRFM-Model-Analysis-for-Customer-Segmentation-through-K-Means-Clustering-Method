@@ -2,7 +2,7 @@
 This project analyzes customer behavior using LRFM metrics and machine-learning techniques. It demonstrates data preprocessing, feature engineering, clustering, and insights generation to support segmentation and data-driven decision-making. Built in Python using pandas, scikit-learn, and Jupyter.
 # LRFM Customer Segmentation Analysis
 
-This project performs customer segmentation using LRFM (Length, Recency, Frequency, Monetary) metrics combined with machine-learning methods such as K-Means, Agglomerative Clustering, and DBSCAN. The goal is to understand customer behavior patterns and provide actionable insights for business decision-making.
+This project performs customer segmentation using LRFM (Length, Recency, Frequency, Monetary) metrics  with machine-learning methods such as K-Means and DBSCAN to then determine which unsupervised method suits the business question best. The goal is to understand customer behavior patterns and provide actionable insights for business decision-making. 
 
 ---
 
@@ -21,7 +21,7 @@ This project performs customer segmentation using LRFM (Length, Recency, Frequen
   - K-Means  
   - Agglomerative Clustering  
   - DBSCAN  
-- **Evaluation**: Silhouette score, Davies–Bouldin index, cluster interpretability  
+- **Evaluation**: Silhouette score
 - **Visualization**: Pairplots, heatmaps, cluster distribution graphs  
 
 ---
